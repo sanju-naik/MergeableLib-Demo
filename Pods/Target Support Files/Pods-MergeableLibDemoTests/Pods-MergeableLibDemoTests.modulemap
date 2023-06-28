@@ -1,0 +1,6 @@
+framework module Pods_MergeableLibDemoTests {
+  umbrella header "Pods-MergeableLibDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
