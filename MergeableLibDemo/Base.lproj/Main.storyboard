@@ -18,22 +18,45 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mergeable Libraries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMG-p7-KCF">
                                 <rect key="frame" x="121" y="415.66666666666669" width="151" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="9z5-x7-bYX"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BXK-b4-Dyc">
+                                <rect key="frame" x="76" y="255.99999999999997" width="240" height="127.66666666666666"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nZh-aw-Sjd">
+                                <rect key="frame" x="76" y="605" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="iu3-Y3-WOg"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BXK-b4-Dyc" secondAttribute="trailing" constant="77" id="DCu-Vc-wOl"/>
                             <constraint firstItem="DMG-p7-KCF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KjZ-qw-3gr"/>
                             <constraint firstItem="DMG-p7-KCF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RVJ-MF-oaP"/>
+                            <constraint firstItem="DMG-p7-KCF" firstAttribute="top" secondItem="BXK-b4-Dyc" secondAttribute="bottom" constant="31.670000000000002" id="RzZ-uj-gQt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nZh-aw-Sjd" secondAttribute="trailing" constant="77" id="VOq-uo-3A4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nZh-aw-Sjd" secondAttribute="bottom" constant="85" id="X9n-Wr-rv4"/>
+                            <constraint firstItem="BXK-b4-Dyc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="197" id="Xlb-5K-KXB"/>
+                            <constraint firstItem="BXK-b4-Dyc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="d32-an-kYd"/>
+                            <constraint firstItem="nZh-aw-Sjd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="xIb-O4-1yA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="BXK-b4-Dyc" id="oay-Ot-nIW"/>
+                        <outlet property="xcodeImageView" destination="nZh-aw-Sjd" id="1Lu-u7-cSr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="98" y="-28"/>
+            <point key="canvasLocation" x="-2001" y="-201"/>
         </scene>
     </scenes>
     <resources>

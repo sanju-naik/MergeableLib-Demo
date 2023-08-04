@@ -1,0 +1,13 @@
+build \
+  --spawn_strategy=local \
+  --worker_sandboxing=false \
+  --features=swift.cacheable_swiftmodules \
+  --apple_platform_type=ios \
+  --verbose_failures \
+  --features=swift.use_global_module_cache \
+  --strategy=SwiftCompile=worker \
+  --experimental_guard_against_concurrent_changes \
+  --features=apple.skip_codesign_simulator_bundles \
+  --features=apple.arm64_simulator_use_device_deps \
+  --features=swift.index_while_building \
+  --features=swift.use_global_index_store \

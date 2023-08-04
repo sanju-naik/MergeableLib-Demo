@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "105F348A-5EF1-424D-9B56-7443A9D96C66"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4EE1D62A-96A8-4181-A586-086E94D0C3E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MergeableLibDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4EE1D62A-96A8-4181-A586-086E94D0C3E5 - 1446803024b0c1a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "4EE1D62A-96A8-4181-A586-086E94D0C3E5 - 6cba66ff27579696"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "4EE1D62A-96A8-4181-A586-086E94D0C3E5 - 1446803024b0c28a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "1148">
+               </Location>
+               <Location
+                  uuid = "4EE1D62A-96A8-4181-A586-086E94D0C3E5 - 1446803024b0c28a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "892">
+               </Location>
+               <Location
+                  uuid = "4EE1D62A-96A8-4181-A586-086E94D0C3E5 - 1446803024b0c2e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "648">
+               </Location>
+               <Location
+                  uuid = "4EE1D62A-96A8-4181-A586-086E94D0C3E5 - 1446803024b0c2e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "312">
+               </Location>
+               <Location
+                  uuid = "4EE1D62A-96A8-4181-A586-086E94D0C3E5 - 1446803024b0c2c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "508">
+               </Location>
+               <Location
+                  uuid = "4EE1D62A-96A8-4181-A586-086E94D0C3E5 - 1446803024b0c2c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1016">
+               </Location>
+               <Location
+                  uuid = "4EE1D62A-96A8-4181-A586-086E94D0C3E5 - 1446803024b0c3b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1100">
+               </Location>
+               <Location
+                  uuid = "4EE1D62A-96A8-4181-A586-086E94D0C3E5 - 1446803024b0c3f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1384">
+               </Location>
+               <Location
+                  uuid = "4EE1D62A-96A8-4181-A586-086E94D0C3E5 - 1446803024b0c3f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "732">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "790B2CEC-E01A-427C-8DF0-69BADDE28EC2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MergeableLibDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "790B2CEC-E01A-427C-8DF0-69BADDE28EC2 - 1446803024b0c182"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "790B2CEC-E01A-427C-8DF0-69BADDE28EC2 - 1446803024b0c182"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "790B2CEC-E01A-427C-8DF0-69BADDE28EC2 - 1446803024b0c1e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "790B2CEC-E01A-427C-8DF0-69BADDE28EC2 - 1446803024b0c1e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "790B2CEC-E01A-427C-8DF0-69BADDE28EC2 - 1446803024b0c182"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "790B2CEC-E01A-427C-8DF0-69BADDE28EC2 - 1446803024b0c20e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "790B2CEC-E01A-427C-8DF0-69BADDE28EC2 - 1446803024b0c26d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "352">
+               </Location>
+               <Location
+                  uuid = "790B2CEC-E01A-427C-8DF0-69BADDE28EC2 - 1446803024b0c24c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "356">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B816224B-EF95-4EC9-B3DE-B420425AB340"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MergeableLibDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B816224B-EF95-4EC9-B3DE-B420425AB340 - 1446803024b0c1a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "B816224B-EF95-4EC9-B3DE-B420425AB340 - 1446803024b0c1a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "B816224B-EF95-4EC9-B3DE-B420425AB340 - 1446803024b0c1a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "B816224B-EF95-4EC9-B3DE-B420425AB340 - 1446803024b0c182"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "B816224B-EF95-4EC9-B3DE-B420425AB340 - 1446803024b0c1c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "B816224B-EF95-4EC9-B3DE-B420425AB340 - 1446803024b0c1c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1333A18-3202-493E-889B-32F1CCE0EDA8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MergeableLibDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D1333A18-3202-493E-889B-32F1CCE0EDA8 - 1446803024b0c1e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "D1333A18-3202-493E-889B-32F1CCE0EDA8 - 1446803024b0c1c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  uuid = "D1333A18-3202-493E-889B-32F1CCE0EDA8 - 1446803024b0c1c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "D1333A18-3202-493E-889B-32F1CCE0EDA8 - 1446803024b0c24c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "724">
+               </Location>
+               <Location
+                  uuid = "D1333A18-3202-493E-889B-32F1CCE0EDA8 - 1446803024b0c2ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "736">
+               </Location>
+               <Location
+                  uuid = "D1333A18-3202-493E-889B-32F1CCE0EDA8 - 1446803024b0c2ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "500">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84AE5774-C977-4F30-AD26-B0D73FCE18BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SubProjFramework/SubProjFramework/SubProjFrameworkClass.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "greetingFromSubProj(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "84AE5774-C977-4F30-AD26-B0D73FCE18BD - 108eeb52f9e18764"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SubProjFramework.SubProjFrameworkClass.greetingFromSubProj(Swift.String) -&gt; ()"
+                  moduleName = "SubProjFramework"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/SubProjFramework/SubProjFramework/SubProjFrameworkClass.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "84AE5774-C977-4F30-AD26-B0D73FCE18BD - 791727b709efb3d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SubProjFramework.SubProjFrameworkClass.greetingFromSubProj(Swift.String) -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/SubProjFramework/SubProjFramework/SubProjFrameworkClass.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F28A8032-2825-4869-BE2E-C864EEC2A7D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MergeableLibDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "resourceBundle()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F28A8032-2825-4869-BE2E-C864EEC2A7D7 - 83cc58453665a5de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.resourceBundle() -&gt; __C.NSBundle"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "F28A8032-2825-4869-BE2E-C864EEC2A7D7 - 83cc58453665a5de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.resourceBundle() -&gt; __C.NSBundle"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5744003-33C8-4F46-B80C-27F337652697"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MergeableLibDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E5744003-33C8-4F46-B80C-27F337652697 - 1446803024b0c2c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1292">
+               </Location>
+               <Location
+                  uuid = "E5744003-33C8-4F46-B80C-27F337652697 - 1446803024b0c2c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MergeableLibDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MergeableLibDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanju/Projects/MergeableLibDemo/MergeableLibDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "596">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
