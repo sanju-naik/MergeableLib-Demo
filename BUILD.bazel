@@ -1,0 +1,50 @@
+load("@build_bazel_rules_apple//apple:ios.bzl", "ios_application")
+load("@build_bazel_rules_swift//swift:swift.bzl", "swift_library")
+load("@bazel_skylib//rules:common_settings.bzl", "string_flag")
+
+swift_library(
+    name = "BazelDemoSources",
+    module_name = "BazelDemo",
+    srcs = glob(["BazelDemo/**/*.swift"]),
+    data = [
+        "BazelDemo/Base.lproj/Main.storyboard",
+        "BazelDemo/Base.lproj/LaunchScreen.storyboard",
+        "BazelDemo/Assets.xcassets",
+    ],
+    deps = ["//Pods/FirebaseXCF","//Pods/FirebaseCrashlyticsXCF","//Pods/FirebaseSessionsXCF"]
+    # select({
+    #     ":Debug": ,
+    #     ":Release": ["//Pods/Firebase"],
+    # })
+)
+
+ios_application(
+
+)
+
+ios_application(
+    name = "MergeableLibDemo",
+    bundle_id = select({
+        "//:Debug": "om.bazeldemo.debug.app", # com.bazeldemo.debug.app
+        "//:Alpha": "com.bazeldemo.alpha.app",
+        "//:Release": "com.bazeldemo.release.app",
+    }), 
+    families = ["iphone"],
+    infoplists = [":BazelDemo/Info.plist"],
+    minimum_os_version = "12.0",
+    deps = [":BazelDemoSources",
+        # "@rules_apple_linker//:lld"
+    ], # 
+    visibility = ["//visibility:public"],
+    resources = select({
+        ":Release": ["Resources/GoogleService-Info.plist"],
+        ":Debug": ["Resources/Debug/GoogleService-Info.plist"],
+        "//conditions:default": None, 
+    }),
+    entitlements = select({
+            ":Debug": "Entitlements/Debug.entitlements",
+            ":Alpha": "Entitlements/Alpha.entitlements",
+            ":Release": "Entitlements/Release.entitlements",
+     }),
+    # launch_storyboard = "BazelDemo/Base.lproj/LaunchScreen.storyboard",
+  )

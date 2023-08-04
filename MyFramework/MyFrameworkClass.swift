@@ -7,6 +7,14 @@
 
 import Foundation
 
-class MyFrameworkClass {
+public class MyFrameworkClass {
+    
+    public init() {
+        
+    }
+    
+    public func greet(message: String) {
+        print("Hey there \(message)")
+    }
     
 }
