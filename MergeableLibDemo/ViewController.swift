@@ -7,8 +7,7 @@
 
 import UIKit
 import MyFramework
-//import Alamofire
-import MyPodTarget
+import Alamofire
 import SubProjFramework
 
 class ViewController: UIViewController {
@@ -34,10 +33,10 @@ class ViewController: UIViewController {
         
         xcodeImageView.image = UIImage(named: "xcode-icon", in: resourceBundle(), compatibleWith: nil)
         
-//        AF.request("https://google.com").response { response in
-//            debugPrint(response)
-//        }
-//        // Do any additional setup after loading the view.
+        AF.request("https://google.com").response { response in
+            debugPrint(response)
+        }
+        // Do any additional setup after loading the view.
     }
 
     func resourceBundle() -> Bundle {

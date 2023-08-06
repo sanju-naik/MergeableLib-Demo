@@ -13,14 +13,12 @@
 		E30197412A740EB100A10B20 /* MyFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E39F975C2A49E0DE00A32F5E /* MyFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E30197422A740EB100A10B20 /* MyFrameworkTwo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E310583F2A6C63A600F0EEBD /* MyFrameworkTwo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E30197432A740EB800A10B20 /* SubProjFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E31058BA2A6CF2F200F0EEBD /* SubProjFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E30197442A740EC700A10B20 /* MyPodTarget.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E31058842A6C6D7F00F0EEBD /* MyPodTarget.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E31058432A6C63A600F0EEBD /* MyFrameworkTwo.docc in Sources */ = {isa = PBXBuildFile; fileRef = E31058422A6C63A600F0EEBD /* MyFrameworkTwo.docc */; };
 		E31058492A6C63A700F0EEBD /* MyFrameworkTwo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E310583F2A6C63A600F0EEBD /* MyFrameworkTwo.framework */; };
 		E31058502A6C63A700F0EEBD /* MyFrameworkTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E310584F2A6C63A700F0EEBD /* MyFrameworkTwoTests.swift */; };
 		E31058512A6C63A700F0EEBD /* MyFrameworkTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = E31058412A6C63A600F0EEBD /* MyFrameworkTwo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E31058542A6C63A700F0EEBD /* MyFrameworkTwo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E310583F2A6C63A600F0EEBD /* MyFrameworkTwo.framework */; };
 		E310585D2A6C63C700F0EEBD /* MyFrameworkTwoClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E310585C2A6C63C700F0EEBD /* MyFrameworkTwoClass.swift */; };
-		E31058852A6C6D7F00F0EEBD /* MyPodTarget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31058842A6C6D7F00F0EEBD /* MyPodTarget.framework */; };
 		E31058BB2A6CF2F200F0EEBD /* SubProjFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31058BA2A6CF2F200F0EEBD /* SubProjFramework.framework */; };
 		E32E62552A6EB54000583135 /* welcome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E32E62542A6EB54000583135 /* welcome@2x.png */; };
 		E39F97602A49E0DE00A32F5E /* MyFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = E39F975F2A49E0DE00A32F5E /* MyFramework.docc */; };
@@ -117,7 +115,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E30197442A740EC700A10B20 /* MyPodTarget.framework in Embed Frameworks */,
 				E30197432A740EB800A10B20 /* SubProjFramework.framework in Embed Frameworks */,
 				E30197412A740EB100A10B20 /* MyFramework.framework in Embed Frameworks */,
 				E30197422A740EB100A10B20 /* MyFrameworkTwo.framework in Embed Frameworks */,
@@ -217,7 +214,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31058BB2A6CF2F200F0EEBD /* SubProjFramework.framework in Frameworks */,
-				E31058852A6C6D7F00F0EEBD /* MyPodTarget.framework in Frameworks */,
 				E31058542A6C63A700F0EEBD /* MyFrameworkTwo.framework in Frameworks */,
 				E39F97712A49E0DF00A32F5E /* MyFramework.framework in Frameworks */,
 				4875FCF17AAC5B2115508D28 /* Pods_MergeableLibDemo.framework in Frameworks */,
@@ -505,6 +501,7 @@
 				E3CE28632A45F05800389F71 /* Resources */,
 				E39F97732A49E0DF00A32F5E /* Embed Frameworks */,
 				E310585E2A6C66E100F0EEBD /* CopyFiles */,
+				5424B2A6DE50E7EF342EECEE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -543,6 +540,7 @@
 				E3CE28812A45F05A00389F71 /* Sources */,
 				E3CE28822A45F05A00389F71 /* Frameworks */,
 				E3CE28832A45F05A00389F71 /* Resources */,
+				D8C7DE731522FF085E1A10C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -727,6 +725,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5424B2A6DE50E7EF342EECEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MergeableLibDemo/Pods-MergeableLibDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MergeableLibDemo/Pods-MergeableLibDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MergeableLibDemo/Pods-MergeableLibDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8C7DE731522FF085E1A10C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MergeableLibDemo-MergeableLibDemoUITests/Pods-MergeableLibDemo-MergeableLibDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MergeableLibDemo-MergeableLibDemoUITests/Pods-MergeableLibDemo-MergeableLibDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MergeableLibDemo-MergeableLibDemoUITests/Pods-MergeableLibDemo-MergeableLibDemoUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F8F45B545F447E0E3F978718 /* [CP] Check Pods Manifest.lock */ = {
@@ -1292,6 +1324,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = armv7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MergeableLibDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1307,7 +1340,7 @@
 				MERGED_BINARY_TYPE = manual;
 				OTHER_LDFLAGS = (
 					"-Wl,-reexport_framework,SubProjFramework",
-					"-Wl,-reexport_framework,MyPodTarget",
+					"-Wl,-reexport_framework,Alamofire",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanju.MergeableLibDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1335,6 +1368,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = armv7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MergeableLibDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1348,9 +1382,12 @@
 				);
 				MARKETING_VERSION = 1.0;
 				MERGED_BINARY_TYPE = manual;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-Wl,-merge_framework,SubProjFramework",
-					"-Wl,-merge_framework,MyPodTarget",
+					"-Wl,-merge_framework,Alamofire",
+					"-Xlinker",
+					"-ld_prime",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanju.MergeableLibDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
